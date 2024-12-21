@@ -5,7 +5,6 @@ import { twMerge } from "tailwind-merge";
 import Navbar from "@/components/Navbar"; // Ensure Navbar component is in the correct path
 import ContactForm from "@/components/ContactForm"; // Ensure ContactForm component is in the correct path
 import Footer from "@/components/Footer"; // Ensure Footer component is in the correct path
-import Image from "next/image";
 
 const ArtistBookingPage = () => {
   return (
@@ -14,11 +13,9 @@ const ArtistBookingPage = () => {
 
       {/* Hero Section */}
       <div className="relative w-full h-96 lg:h-[400px] mt-[64px]">
-        <Image
+        <img
           src="/artist-booking.jpeg"
           alt="Artist Booking"
-          layout="fill"
-          objectFit="cover"
           className="rounded-lg"
         />
       </div>
@@ -57,12 +54,12 @@ const ArtistBookingPage = () => {
             </p>
             <p className="mb-6">
               With a tailored approach for every event, we ensure seamless
-              coordination between artists, venues, and clients. Whether it's
+              coordination between artists, venues, and clients. Whether it &apos; s
               negotiating contracts, planning logistics, or managing on-site
               operations, we handle it all with precision and professionalism.
             </p>
             <p>
-              Partner with Mavi Events to elevate your event experience. Let's
+              Partner with Mavi Events to elevate your event experience. Let &apos; s
               create unforgettable memories together!
             </p>
           </div>

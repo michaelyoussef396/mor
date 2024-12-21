@@ -50,7 +50,7 @@ const EventPlanningPage = () => {
             <ul className="list-disc pl-6 text-sm space-y-2">
               <li>
                 <strong>Venue selection:</strong> Choosing the perfect venue
-                based on the artist's style and audience.
+                based on the artist &apos; s style and audience.
               </li>
               <li>
                 <strong>Event logistics:</strong> Managing travel,

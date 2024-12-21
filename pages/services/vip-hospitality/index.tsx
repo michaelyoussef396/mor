@@ -86,7 +86,7 @@ const dummyContent = [
           Our tailored VIP packages are designed to provide premium services that enhance the overall event experience.
         </p>
         <p>
-          Whether it's a high-profile performance or a private gathering, we ensure every VIP guest feels valued and pampered.
+          Whether it &apos; s a high-profile performance or a private gathering, we ensure every VIP guest feels valued and pampered.
         </p>
       </>
     ),

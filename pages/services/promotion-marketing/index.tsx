@@ -103,7 +103,7 @@ const dummyContent = [
           amplify awareness and maximize turnout.
         </p>
         <p>
-          Whether you're hosting a concert, festival, or private event, our
+          Whether you &apos; re hosting a concert, festival, or private event, our
           team ensures that your event gets the attention it deserves.
         </p>
       </>
