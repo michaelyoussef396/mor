@@ -8,7 +8,7 @@ const OurServices = () => {
       title: "Artist Booking & Management",
       description:
         "We handle all aspects of artist bookings, including contract negotiation, scheduling, and logistics for international performers.",
-      link: "#artist-booking-management",
+      link: "/services/artist-booking",
     },
     {
       title: "Event Planning & Production",

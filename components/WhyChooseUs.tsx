@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="bg-gray-100 dark:bg-gray-800 py-16">
+    <section className="bg-gray-100 dark:bg-gray-800 py-16" id="why-choose-us">
       <div className="container mx-auto px-6 text-center">
         <h3 className="text-4xl font-bold mb-6">Why Choose Us</h3>
         <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-12">

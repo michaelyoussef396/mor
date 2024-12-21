@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 
 const ContactForm = () => {
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-6 py-16" id="contact">
       <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
       <form
         className="grid grid-cols-1 gap-6 bg-gray-800 p-8 rounded-lg shadow-lg md:grid-cols-2"

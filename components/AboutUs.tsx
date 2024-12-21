@@ -4,7 +4,7 @@ import OurValues from "@/components/Our-values";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white text-black py-16">
+    <section className="bg-white text-black py-16" id="about-us">
       {/* About Us Intro */}
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl lg:text-5xl font-bold mb-6">About Us</h2>
