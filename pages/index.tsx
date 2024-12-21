@@ -4,6 +4,8 @@ import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
 import OurServices from "@/components/OurServices";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +24,8 @@ export default function Home() {
       <AboutUs />
       <OurServices />
       <WhyChooseUs />
+      <ContactForm />
+      <Footer />
     </main>
   );
 }
