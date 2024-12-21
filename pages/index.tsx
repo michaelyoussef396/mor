@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
+import OurServices from "@/components/OurServices";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,6 +20,8 @@ export default function Home() {
     <main>
       <Hero />
       <AboutUs />
+      <OurServices />
+      <WhyChooseUs />
     </main>
   );
 }
