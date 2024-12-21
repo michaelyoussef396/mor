@@ -14,13 +14,13 @@ const OurServices = () => {
       title: "Event Planning & Production",
       description:
         "From venue selection to sound and lighting, we offer end-to-end event planning to ensure flawless performances.",
-      link: "#event-planning-production",
+      link: "/services/event-planning",
     },
     {
       title: "Promotion & Marketing",
       description:
         "Our marketing team ensures your event reaches the right audience through targeted advertising and collaborations.",
-      link: "#promotion-marketing",
+      link: "/services/promotion-marketing",
     },
     {
       title: "Tour Management",
