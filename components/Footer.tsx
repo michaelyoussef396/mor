@@ -47,7 +47,7 @@ const Footer = () => {
           <h4 className="text-xl font-bold mb-4">Get In Touch</h4>
           <ul className="space-y-2 text-gray-400">
             <li>
-              <span>📍 Sydney, Australia</span>
+              <span>📍 Melbourne, Australia</span>
             </li>
             <li>
               <a href="mailto:info@mavievents.com" className="hover:text-white">
