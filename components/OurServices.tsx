@@ -26,19 +26,19 @@ const OurServices = () => {
       title: "Tour Management",
       description:
         "Complete tour management services, including scheduling, venue coordination, and hospitality for international artists.",
-      link: "#tour-management",
+      link: "/services/tour-management",
     },
     {
       title: "VIP & Hospitality Services",
       description:
         "Elevate events with VIP packages offering backstage access, meet-and-greet opportunities, and premium hospitality.",
-      link: "#vip-hospitality",
+      link: "/services/vip-hospitality",
     },
     {
       title: "Custom Event Solutions",
       description:
         "Tailored event solutions for festivals, club shows, or unique experiences to meet your vision.",
-      link: "#custom-event-solutions",
+      link: "/services/custom-events",
     },
   ];
 
