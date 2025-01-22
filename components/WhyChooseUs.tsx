@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
     {
       title: "Global Reach, Local Expertise",
       description:
-        "Mavi Events brings international talent to Australian shores with the local expertise needed to ensure everything runs smoothly.",
+        "MOR brings international talent to Australian shores with the local expertise needed to ensure everything runs smoothly.",
       icon: "🌍",
     },
     {
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-6 text-center">
         <h3 className="text-4xl font-bold mb-6">Why Choose Us</h3>
         <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-12">
-          Discover what sets Mavi Events apart and why clients trust us to
+          Discover what sets MOR apart and why clients trust us to
           deliver unforgettable live music experiences.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

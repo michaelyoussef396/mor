@@ -88,7 +88,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          At Mavi Events, we handle every aspect of event planning and
+          At MOR, we handle every aspect of event planning and
           production, ensuring a smooth and memorable experience. From venue
           selection to on-site coordination, our team of experts delivers
           exceptional service.

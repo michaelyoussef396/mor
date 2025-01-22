@@ -78,7 +78,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          At Mavi Events, our marketing team works diligently to ensure your
+          At MOR, our marketing team works diligently to ensure your
           events are promoted effectively and reach the right audience. We
           leverage the latest marketing tools and strategies to maximize
           visibility and engagement.

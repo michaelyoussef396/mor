@@ -82,7 +82,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          At Mavi Events, we specialize in creating exclusive VIP experiences that elevate events to another level.
+          At MOR, we specialize in creating exclusive VIP experiences that elevate events to another level.
           Our tailored VIP packages are designed to provide premium services that enhance the overall event experience.
         </p>
         <p>

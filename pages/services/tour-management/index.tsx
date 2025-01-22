@@ -85,7 +85,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          At Mavi Events, we specialize in comprehensive tour management for international artists performing in Australia.
+          At MOR, we specialize in comprehensive tour management for international artists performing in Australia.
           Our team ensures that every aspect of the tour is handled with precision and care, allowing artists to focus entirely on their performances.
         </p>
         <p>

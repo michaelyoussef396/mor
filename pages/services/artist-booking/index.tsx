@@ -44,10 +44,10 @@ const ArtistBookingPage = () => {
           {/* Additional Content */}
           <div className="mt-16">
             <h2 className="text-2xl font-bold mb-4">
-              Why Choose Mavi Events for Artist Booking?
+              Why Choose MOR for Artist Booking?
             </h2>
             <p className="mb-6">
-              Mavi Events has built a reputation for excellence in artist
+              MOR has built a reputation for excellence in artist
               booking and management. Our team has a deep understanding of the
               unique challenges and opportunities within the live events
               industry, enabling us to deliver outstanding results.
@@ -59,7 +59,7 @@ const ArtistBookingPage = () => {
               operations, we handle it all with precision and professionalism.
             </p>
             <p>
-              Partner with Mavi Events to elevate your event experience. Let &apos; s
+              Partner with MOR to elevate your event experience. Let &apos; s
               create unforgettable memories together!
             </p>
           </div>
@@ -78,7 +78,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          Mavi Events specializes in seamless artist booking and management,
+          MOR specializes in seamless artist booking and management,
           handling every aspect from contract negotiation to logistical
           planning. Our expertise ensures a stress-free experience for both
           artists and event organizers.
@@ -97,7 +97,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          At Mavi Events, we prioritize clear communication and collaboration
+          At MOR, we prioritize clear communication and collaboration
           with artists and clients to deliver outstanding events. Our tailored
           strategies ensure that every detail aligns with your vision.
         </p>
@@ -120,7 +120,7 @@ const dummyContent = [
           <li>Comprehensive support from planning to execution.</li>
         </ul>
         <p className="mt-4">
-          Mavi Events is committed to delivering exceptional service and
+          MOR is committed to delivering exceptional service and
           ensuring the success of your events.
         </p>
       </>

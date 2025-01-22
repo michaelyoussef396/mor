@@ -37,11 +37,11 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black/90 text-white shadow-lg">
+    <header className="fixed top-0 left-0 w-full z-50 bg-black text-white shadow-lg">
       <div className="flex items-center justify-between px-5 lg:px-10 py-4 max-w-screen-xl mx-auto">
         {/* Logo Section */}
         <Link href="/" className="text-2xl font-bold">
-          Mavi Events
+          MOR
         </Link>
 
         {/* Desktop Navigation */}
@@ -55,17 +55,17 @@ const Navbar = () => {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <button className="font-medium text-sm uppercase hover:text-teal-400 transition duration-200">
+                  <button className="font-medium text-sm uppercase hover:text-violetPurple transition duration-200">
                     Services
                   </button>
                   {servicesOpen && (
-                    <div className="absolute left-0 mt-2 bg-white text-black rounded-lg shadow-lg w-64 p-4 z-50">
+                    <div className="absolute left-0 mt-2 bg-violetPurple text-white rounded-lg shadow-lg w-64 p-4 z-50">
                       <div className="flex flex-col space-y-4 text-sm">
                         {services.map((service) => (
                           <Link
                             key={service.id}
                             href={service.url}
-                            className="hover:text-teal-500 transition duration-200"
+                            className="hover:text-midnightPurple transition duration-200"
                           >
                             {service.title}
                           </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
               )}
               <Link
                 href={item.url}
-                className="font-medium text-sm uppercase hover:text-teal-400 transition duration-200"
+                className="font-medium text-sm uppercase hover:text-violetPurple transition duration-200"
               >
                 {item.title}
               </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden hover:text-teal-400 focus:outline-none"
+          className="lg:hidden hover:text-violetPurple focus:outline-none"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
@@ -126,14 +126,14 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="fixed top-0 left-0 w-full h-screen bg-black/95 z-40 flex flex-col items-center justify-center space-y-6">
+        <div className="fixed top-0 left-0 w-full h-screen bg-midnightPurple/95 z-40 flex flex-col items-center justify-center space-y-6">
           {navigation.map((item, index) => (
             <React.Fragment key={item.id}>
               {/* Insert "Our Services" after "About Us" */}
               {index === 1 && (
                 <div className="flex flex-col items-center">
                   <button
-                    className="text-white font-medium text-xl uppercase hover:text-teal-400 transition duration-200"
+                    className="text-white font-medium text-xl uppercase hover:text-violetPurple transition duration-200"
                     onClick={() => setServicesOpen(!servicesOpen)}
                   >
                     Our Services
@@ -144,7 +144,7 @@ const Navbar = () => {
                         <li key={service.id}>
                           <Link
                             href={service.url}
-                            className="block px-4 py-2 hover:bg-teal-500 hover:text-white rounded-md transition duration-200"
+                            className="block px-4 py-2 hover:bg-violetPurple hover:text-white rounded-md transition duration-200"
                             onClick={() => setMobileMenuOpen(false)}
                           >
                             {service.title}
@@ -157,7 +157,7 @@ const Navbar = () => {
               )}
               <Link
                 href={item.url}
-                className="text-white font-medium text-xl uppercase hover:text-teal-400 transition duration-200"
+                className="text-white font-medium text-xl uppercase hover:text-violetPurple transition duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.title}

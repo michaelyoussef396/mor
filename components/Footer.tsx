@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left md:justify-items-center">
         {/* About Section */}
         <div className="col-span-1">
-          <h4 className="text-xl font-bold mb-4">About Mavi Events</h4>
+          <h4 className="text-xl font-bold mb-4">About MOR</h4>
           <p className="text-sm text-gray-400">
-            Mavi Events is dedicated to curating unforgettable live music
+            MOR is dedicated to curating unforgettable live music
             experiences by connecting international artists with Australian
             audiences.
           </p>
@@ -65,7 +65,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="mt-8 text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Mavi Events. All rights reserved.
+        &copy; {new Date().getFullYear()} MOR. All rights reserved.
       </div>
     </footer>
   );

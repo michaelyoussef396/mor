@@ -44,7 +44,7 @@ const CustomEventSolutionsPage = () => {
           <div className="my-10">
             <h2 className="text-xl font-bold mb-4">Tailored Solutions for Every Event</h2>
             <p className="text-sm mb-4">
-              No two events are the same, and at Mavi Events, we believe in delivering tailored solutions to meet
+              No two events are the same, and at MOR, we believe in delivering tailored solutions to meet
               your unique requirements. From large-scale festivals to intimate club shows, we bring your vision to life.
             </p>
             <p className="text-sm mt-4">
@@ -72,7 +72,7 @@ const dummyContent = [
     description: (
       <>
         <p>
-          At Mavi Events, we specialize in crafting unique and personalized event experiences. No matter the scale
+          At MOR, we specialize in crafting unique and personalized event experiences. No matter the scale
           or type of event, we work closely with our clients to ensure every detail aligns with their vision.
         </p>
         <p>
