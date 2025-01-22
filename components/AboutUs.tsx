@@ -4,7 +4,7 @@ import OurValues from "@/components/Our-values";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white text-black py-16" id="about-us">
+    <section className="bg-midnightPurple text-white py-16" id="about-us">
       {/* About Us Intro */}
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl lg:text-5xl font-bold mb-6">About Us</h2>
@@ -16,8 +16,8 @@ const AboutUs = () => {
       {/* Why Did We Start? */}
       <div className="container mx-auto px-6 mt-12 flex flex-col lg:flex-row items-center gap-12 text-center lg:text-left">
         <div className="flex-1 max-w-lg mx-auto">
-          <h3 className="text-3xl font-semibold mb-6">Why Did We Start?</h3>
-          <p className="text-lg leading-relaxed">
+          <h3 className="text-3xl font-semibold mb-6 text-violetPurple">Why Did We Start?</h3>
+          <p className="text-lg leading-relaxed text-gray-200">
             The idea behind MOR was born out of a belief: Australia’s music scene deserves more exposure to international talent, and international artists should have more opportunities to perform in front of Australian audiences. We aim to bridge that gap by bringing diverse global talent to major cities like Sydney, Melbourne, Brisbane, and Perth.
           </p>
         </div>
@@ -31,10 +31,10 @@ const AboutUs = () => {
       </div>
 
       {/* Our Vision */}
-      <div className="bg-gray-100 dark:bg-gray-800 py-16 mt-16">
+      <div className="bg-violetPurple py-16 mt-16">
         <div className="container mx-auto px-6 text-center">
-          <h3 className="text-3xl font-semibold mb-6">Our Vision</h3>
-          <p className="text-lg leading-relaxed max-w-4xl mx-auto">
+          <h3 className="text-3xl font-semibold mb-6 text-white">Our Vision</h3>
+          <p className="text-lg leading-relaxed max-w-4xl mx-auto text-gray-100">
             At MOR, our vision is to be the leading agency in Australia for booking and producing international live performances. We aim to elevate the Australian live music scene by bringing world-class talent to our shores, creating lasting memories and fostering cultural exchange.
           </p>
         </div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
 
       {/* Our Values */}
       <div className="container mx-auto px-6 mt-16">
-        <h3 className="text-3xl font-semibold text-center mb-12">Our Values</h3>
+        <h3 className="text-3xl font-semibold text-center mb-12 text-violetPurple">Our Values</h3>
         <OurValues />
       </div>
     </section>

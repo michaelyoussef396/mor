@@ -13,11 +13,11 @@ const OurValues = () => {
   ];
 
   return (
-    <CardSpotlight className="text-center p-8 w-full max-w-3xl mx-auto">
-      <h4 className="text-2xl font-bold relative z-20 mt-2 text-teal-400">
+    <CardSpotlight className="text-center p-8 w-full max-w-3xl mx-auto bg-midnightPurple text-white rounded-lg shadow-lg">
+      <h4 className="text-2xl font-bold relative z-20 mt-2 text-violetPurple">
         Our Core Values
       </h4>
-      <div className="text-black mt-4 relative z-20">
+      <div className="mt-4 relative z-20">
         <ul className="list-none space-y-4 mt-4">
           {values.map((value, index) => (
             <ValueStep key={index} title={value} />
@@ -32,7 +32,7 @@ const ValueStep = ({ title }: { title: string }) => {
   return (
     <li className="flex gap-2 items-start">
       <CheckIcon />
-      <p className="text-black text-left">{title}</p>
+      <p className="text-gray-100 text-left">{title}</p>
     </li>
   );
 };
@@ -45,7 +45,7 @@ const CheckIcon = () => {
       height="24"
       viewBox="0 0 24 24"
       fill="currentColor"
-      className="h-5 w-5 text-teal-400 mt-1 flex-shrink-0"
+      className="h-5 w-5 text-violetPurple mt-1 flex-shrink-0"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path
