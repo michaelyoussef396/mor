@@ -49,8 +49,8 @@ const Footer = () => {
               <span>📍 Melbourne, Australia</span>
             </li>
             <li>
-              <a href="mailto:info@mavievents.com" className="hover:text-white transition">
-                📧 info@mavievents.com
+              <a href="mailto:info@mor.com" className="hover:text-white transition">
+                📧 info@mor.com
               </a>
             </li>
             <li>
