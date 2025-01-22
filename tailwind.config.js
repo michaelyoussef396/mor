@@ -14,7 +14,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        midnightPurple: "#5E2A8C", // Midnight Purple as the main color
+        midnightPurple: "#280138", // Updated darker Midnight Purple
         violetPurple: "#9B4DFF",  // Violet Purple as accent color
         black: "#000000",         // Black as accent color
       },

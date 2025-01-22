@@ -30,24 +30,28 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="bg-gray-100 dark:bg-gray-800 py-16" id="why-choose-us">
+    <section
+      className="bg-midnightPurple text-white py-16"
+      id="why-choose-us"
+    >
       <div className="container mx-auto px-6 text-center">
-        <h3 className="text-4xl font-bold mb-6">Why Choose Us</h3>
-        <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-12">
-          Discover what sets MOR apart and why clients trust us to
-          deliver unforgettable live music experiences.
+        <h3 className="text-4xl font-bold mb-6 text-violetPurple">
+          Why Choose Us
+        </h3>
+        <p className="text-lg leading-relaxed max-w-3xl mx-auto mb-12 text-gray-200">
+          Discover what sets MOR apart and why clients trust us to deliver unforgettable live music experiences.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 text-left"
+              className="bg-violetPurple text-white shadow-lg rounded-lg p-6 text-left border border-gray-700"
             >
               <div className="text-5xl mb-4">{feature.icon}</div>
-              <h4 className="text-xl font-semibold mb-2">{feature.title}</h4>
-              <p className="text-gray-600 dark:text-gray-300">
-                {feature.description}
-              </p>
+              <h4 className="text-xl font-semibold mb-2 text-white">
+                {feature.title}
+              </h4>
+              <p className="text-gray-300">{feature.description}</p>
             </div>
           ))}
         </div>

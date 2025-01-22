@@ -3,25 +3,24 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-16">
+    <footer className="bg-midnightPurple text-white py-16">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left md:justify-items-center">
         {/* About Section */}
         <div className="col-span-1">
-          <h4 className="text-xl font-bold mb-4">About MOR</h4>
-          <p className="text-sm text-gray-400">
-            MOR is dedicated to curating unforgettable live music
-            experiences by connecting international artists with Australian
-            audiences.
+          <h4 className="text-xl font-bold mb-4 text-violetPurple">About MOR</h4>
+          <p className="text-sm text-gray-300">
+            MOR is dedicated to curating unforgettable live music experiences by
+            connecting international artists with Australian audiences.
           </p>
         </div>
 
         {/* Links Section */}
         <div className="col-span-1">
-          <h4 className="text-xl font-bold mb-4">Quick Links</h4>
-          <ul className="space-y-2 text-gray-400">
+          <h4 className="text-xl font-bold mb-4 text-violetPurple">Quick Links</h4>
+          <ul className="space-y-2 text-gray-300">
             <li>
-              <a href="#services" className="hover:text-white transition">
-                Our Services
+              <a href="#upcoming-events" className="hover:text-white transition">
+                Upcoming Events
               </a>
             </li>
             <li>
@@ -44,18 +43,18 @@ const Footer = () => {
 
         {/* Contact Info Section */}
         <div className="col-span-1">
-          <h4 className="text-xl font-bold mb-4">Get In Touch</h4>
-          <ul className="space-y-2 text-gray-400">
+          <h4 className="text-xl font-bold mb-4 text-violetPurple">Get In Touch</h4>
+          <ul className="space-y-2 text-gray-300">
             <li>
               <span>📍 Melbourne, Australia</span>
             </li>
             <li>
-              <a href="mailto:info@mavievents.com" className="hover:text-white">
+              <a href="mailto:info@mavievents.com" className="hover:text-white transition">
                 📧 info@mavievents.com
               </a>
             </li>
             <li>
-              <a href="tel:+1234567890" className="hover:text-white">
+              <a href="tel:+1234567890" className="hover:text-white transition">
                 📞 +1 (234) 567-890
               </a>
             </li>
@@ -64,7 +63,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Section */}
-      <div className="mt-8 text-center text-gray-500 text-sm">
+      <div className="mt-8 text-center text-gray-400 text-sm">
         &copy; {new Date().getFullYear()} MOR. All rights reserved.
       </div>
     </footer>
