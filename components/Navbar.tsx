@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-5 lg:px-10 py-4 max-w-screen-xl mx-auto">
         {/* Logo Section */}
         <Link href="/" className="text-2xl font-bold">
-          MOR
+          MOR Events
         </Link>
 
         {/* Desktop Navigation */}
