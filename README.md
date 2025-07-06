@@ -1,40 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# MOR Events – Premium Event Planning Website 🎉✨
 
-## Getting Started
+Luxury Weddings • Corporate Experiences • Private Celebrations
 
-First, run the development server:
+---
+
+## 🔍 Project Overview
+
+**MOR Events** is a high-end, fully custom one-page website designed to elevate a luxury event planning brand’s digital presence. The site blends elegance with modern engineering — delivering a pixel-perfect UI, smooth animations, responsive design, and SEO-optimized performance. Every element was crafted to convert visitors into high-value leads.
+
+---
+
+## 🚀 Live Demo
+
+👉 [https://mor-events.vercel.app](https://mor-events.vercel.app)
+
+---
+
+## ✨ Features & Highlights
+
+- 🎨 **Bespoke Visual Design** – No templates, handcrafted layout and styling
+- ⚡ **Framer Motion Animations** – Subtle transitions that feel premium, not noisy
+- 📱 **Mobile-First** – Fully responsive layout, looks flawless on every device
+- 📌 **Service Cards** – Clearly segmented: Weddings, Corporate, Private
+- 🗣 **Testimonials Slider** – Authentic reviews with elegant motion
+- 🖼️ **Gallery Grid** – Visual storytelling through curated image blocks
+- 📨 **Validated Contact Form** – Built with React Hook Form + Yup
+- 🔍 **SEO Best Practices** – Metadata, structure, and speed handled
+- 🌐 **Deployed on Vercel** – CI/CD + Global CDN for lightning performance
+
+---
+
+## 🛠 Tech Stack
+
+| Layer       | Tools                                         |
+|-------------|-----------------------------------------------|
+| Framework   | Next.js (App Router), TypeScript              |
+| Styling     | Tailwind CSS, Custom CSS Modules              |
+| Animations  | Framer Motion                                 |
+| Forms       | React Hook Form, Yup                          |
+| Deployment  | Vercel                                        |
+
+---
+
+## 📦 Local Development
 
 ```bash
+git clone https://github.com/michaelyoussef396/mor.git
+cd mor
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 Open: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📈 What I Learned
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- Architecting elegant, client-first single-page experiences from scratch
+- Animating at the perfect tension point between luxury and performance
+- Building conversion-optimized forms that actually work
+- Maximizing speed + SEO with smart Next.js + Vercel tooling
+- Designing for trust and credibility with no fluff
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Future Plans
 
-To learn more about Next.js, take a look at the following resources:
+- 🌍 Multi-language support (i18n-ready)
+- 🖥 CMS Integration (for future updates without dev)
+- 📽 Interactive media in gallery (video & transitions)
+- 📬 Email automation + CRM pipeline integration
+- 📰 Blog for event trends, client stories, & SEO boosts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+(Coming soon: image previews of hero section, services, testimonials, and gallery)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📝 License
+
+MIT
+
+---
+
+## 🙌 Feedback & Contributions
+
+Pull requests welcome. Ideas, issues, and improvements?  
+👉 [Open an issue](https://github.com/michaelyoussef396/mor/issues)
+
+---
+
+MOR Events brings luxury to life — this build brings it online.  
+Built with precision, polished for conversion.
